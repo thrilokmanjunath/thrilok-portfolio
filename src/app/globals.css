@@ -53,6 +53,13 @@
   --color-brand-cyan: oklch(0.724 0.198 200.7);
   --color-brand-pink: oklch(0.658 0.225 353.4);
   --color-brand-blue: oklch(0.55 0.2 250);
+
+  --animate-shine: shine 8s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 }
 
 :root {

@@ -24,7 +24,7 @@ export function Hero() {
           className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full glass text-xs font-semibold text-brand-purple mb-6 glow-purple"
         >
           <Sparkles className="h-3 w-3 text-brand-cyan fill-current" />
-          <span>Head , Quantum Club @ Christ University</span>
+          <span>President, Quantum Club @ CHRIST University</span>
         </motion.div>
 
         {/* Headline */}
@@ -37,7 +37,7 @@ export function Hero() {
           <span className="bg-gradient-to-r from-foreground via-foreground/90 to-muted-foreground bg-clip-text text-transparent">
             Hi, I&apos;m{" "}
           </span>
-          <span className="bg-gradient-to-r from-brand-purple via-brand-pink to-brand-cyan bg-clip-text text-transparent glow-text">
+          <span className="bg-gradient-to-r from-foreground via-foreground/50 to-foreground bg-[length:200%_auto] bg-clip-text text-transparent animate-shine">
             Thrilok M
           </span>
         </motion.h1>
