@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cert-1",
+    "title": "AWS Cloud Foundations",
+    "issuer": "Amazon Web Services (AWS)",
+    "issueDate": "2025-04-10",
+    "credentialId": "AWS-CF-92841"
+  },
+  {
+    "id": "cert-2",
+    "title": "MongoDB Certified Developer / Practitioner",
+    "issuer": "MongoDB Association",
+    "issueDate": "2025-02-15",
+    "credentialId": "MONGO-DEV-1928"
+  },
+  {
+    "id": "cert-3",
+    "title": "Artificial Intelligence Foundations",
+    "issuer": "Industry Certified",
+    "issueDate": "2024-11-20"
+  },
+  {
+    "id": "cert-4",
+    "title": "Machine Learning Professional",
+    "issuer": "Industry Certified",
+    "issueDate": "2024-09-12"
+  },
+  {
+    "id": "cert-5",
+    "title": "Data Science Associate",
+    "issuer": "Industry Certified",
+    "issueDate": "2024-08-05"
+  },
+  {
+    "id": "cert-6",
+    "title": "Research Skills in AI",
+    "issuer": "Academic Association",
+    "issueDate": "2025-08-10"
+  },
+  {
+    "id": "cert-7",
+    "title": "Cybersecurity Fundamentals",
+    "issuer": "Industry Certified",
+    "issueDate": "2024-05-18"
+  }
+]

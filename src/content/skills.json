@@ -1,0 +1,55 @@
+[
+  {
+    "category": "Data Science & Core ML",
+    "items": [
+      { "name": "Python", "level": "Expert" },
+      { "name": "R", "level": "Advanced" },
+      { "name": "SQL (PostgreSQL, MySQL)", "level": "Expert" },
+      { "name": "Scikit-Learn", "level": "Expert" },
+      { "name": "Pandas / NumPy", "level": "Expert" },
+      { "name": "Statistical Modeling & EDA", "level": "Expert" }
+    ]
+  },
+  {
+    "category": "Deep Learning & Generative AI",
+    "items": [
+      { "name": "PyTorch / TensorFlow", "level": "Advanced" },
+      { "name": "Large Language Models (LLMs)", "level": "Advanced" },
+      { "name": "Prompt Engineering & RAG", "level": "Advanced" },
+      { "name": "OpenAI / Anthropic APIs", "level": "Advanced" },
+      { "name": "Hugging Face Transformers", "level": "Advanced" },
+      { "name": "LangChain / LlamaIndex", "level": "Advanced" }
+    ]
+  },
+  {
+    "category": "Quantum Computing & Research",
+    "items": [
+      { "name": "Qiskit", "level": "Advanced" },
+      { "name": "Quantum Algorithms (Shor's, Grover's)", "level": "Advanced" },
+      { "name": "Quantum Cryptography / QKD", "level": "Intermediate" },
+      { "name": "Scientific Writing & Research", "level": "Advanced" },
+      { "name": "LaTeX", "level": "Advanced" }
+    ]
+  },
+  {
+    "category": "MLOps & Cloud Engineering",
+    "items": [
+      { "name": "Git & GitHub Actions", "level": "Expert" },
+      { "name": "MLflow / DVC", "level": "Intermediate" },
+      { "name": "Docker", "level": "Advanced" },
+      { "name": "AWS (S3, EC2, SageMaker)", "level": "Intermediate" },
+      { "name": "CI/CD for ML Pipelines", "level": "Advanced" }
+    ]
+  },
+  {
+    "category": "Full-Stack Development",
+    "items": [
+      { "name": "TypeScript / JavaScript", "level": "Advanced" },
+      { "name": "React.js", "level": "Advanced" },
+      { "name": "Next.js", "level": "Advanced" },
+      { "name": "Node.js / FastAPI", "level": "Advanced" },
+      { "name": "Tailwind CSS", "level": "Expert" },
+      { "name": "REST & GraphQL APIs", "level": "Advanced" }
+    ]
+  }
+]

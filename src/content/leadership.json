@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lead-1",
+    "role": "Head of Quantum Club",
+    "organization": "Quantum Club, Christ University",
+    "organizationUrl": "https://christuniversity.in",
+    "startDate": "2025-07-01",
+    "endDate": "",
+    "current": true,
+    "description": [
+      "Leading a student-run club of 150+ members focused on expanding awareness and understanding of quantum information sciences and technologies.",
+      "Organizing workshops on Qiskit, quantum algorithms, quantum cryptography, and quantum machine learning.",
+      "Facilitating collaborative hackathons, guest lectures, and peer-led study groups in partnership with industry experts and university professors."
+    ],
+    "highlights": [
+      "Established Christ University's first Quantum Computing Seminar, drawing 500+ participants.",
+      "Secured learning resources and access credentials to cloud quantum simulators for student research."
+    ]
+  }
+]

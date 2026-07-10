@@ -1,0 +1,36 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Data Science Intern",
+    "company": "Prodigy InfoTech",
+    "companyUrl": "https://prodigyinfotech.in",
+    "location": "Remote",
+    "type": "Internship",
+    "startDate": "2025-04-01",
+    "endDate": "2025-06-30",
+    "current": false,
+    "description": [
+      "Conducted exploratory data analysis (EDA) and data preprocessing on complex datasets, improving model input cleanliness.",
+      "Developed and evaluated predictive machine learning classification and regression models using scikit-learn.",
+      "Performed detailed feature engineering and statistical data analysis to identify significant data patterns and metrics."
+    ],
+    "skills": ["Python", "Pandas", "NumPy", "Scikit-learn", "EDA", "Model Evaluation"]
+  },
+  {
+    "id": "exp-2",
+    "role": "Machine Learning Research Assistant ",
+    "company": "Department of Computer Science, CHRIST (Deemed to be University)",
+    "companyUrl": "https://christuniversity.in",
+    "location": "Bengaluru, India",
+    "type": "Academic",
+    "startDate": "2025-06-01",
+    "endDate": "",
+    "current": true,
+    "description": [
+      "Exploring quantum computing simulation runtimes, investigating algorithms for noisy intermediate-scale quantum (NISQ) frameworks.",
+      "Developing Python and Streamlit dashboard prototypes to visualize multidimensional statistical models.",
+      "Writing clean scientific documentation and study outlines on advanced neural networks and quantum gate structures."
+    ],
+    "skills": ["Python", "Qiskit", "Streamlit", "LaTeX", "Data Simulation"]
+  }
+]

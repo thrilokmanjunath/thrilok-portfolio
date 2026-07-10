@@ -1,0 +1,30 @@
+[
+  {
+    "id": "edu-1",
+    "degree": "MSc (Master of Science)",
+    "field": "Data Science",
+    "institution": "CHRIST (Deemed to be University)",
+    "institutionUrl": "https://christuniversity.in",
+    "location": "Bengaluru, India (Yeshwanthpur Campus)",
+    "startDate": "2025-06-01",
+    "endDate": "2027-05-31",
+    "current": true,
+    "grade": "Current Student",
+    "activities": ["President of the Quantum Club", "Applied Machine Learning research", "AI & Data Science Student Initiatives"],
+    "description": "Focusing on advanced machine learning algorithms, deep learning, statistical modeling, big data tools, research methodologies, and quantum computing frameworks."
+  },
+  {
+    "id": "edu-2",
+    "degree": "BCA (Bachelor of Computer Applications)",
+    "field": "Data Analytics",
+    "institution": "St. Joseph's University",
+    "institutionUrl": "https://sju.edu.in",
+    "location": "Bengaluru, India",
+    "startDate": "2022-06-01",
+    "endDate": "2025-05-31",
+    "current": false,
+    "grade": "CGPA: 7.59",
+    "activities": ["Coding Club Coordinator", "Data Analytics lead", "Hackathon coordination"],
+    "description": "Acquired strong foundations in data structures, algorithms, databases, statistics, exploratory data analysis (EDA), and machine learning concepts."
+  }
+]
