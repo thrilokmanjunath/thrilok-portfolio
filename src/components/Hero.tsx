@@ -24,7 +24,7 @@ export function Hero() {
           className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full glass text-xs font-semibold text-brand-purple mb-6 glow-purple"
         >
           <Sparkles className="h-3 w-3 text-brand-cyan fill-current" />
-          <span>President, Quantum Club @ CHRIST University</span>
+          <span> Head, Quantum Club @ CHRIST University</span>
         </motion.div>
 
         {/* Headline */}

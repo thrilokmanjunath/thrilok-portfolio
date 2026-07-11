@@ -17,7 +17,7 @@ export default function HomePage() {
         type="Person"
         data={{
           name: "Thrilok M",
-          jobTitle: "Data Scientist & Quantum Computing Student",
+          jobTitle: "Data Scientist ",
           url: "https://thrilok.dev",
         }}
       />
