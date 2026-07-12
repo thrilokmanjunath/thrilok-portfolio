@@ -66,7 +66,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       />
 
       <article className="container mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-        
+
         {/* Back Link */}
         <Link href="/blog" className="inline-flex items-center text-xs font-semibold text-muted-foreground hover:text-foreground transition-colors mb-8 group">
           <ArrowLeft className="h-4 w-4 mr-2 group-hover:-translate-x-1 transition-transform" />
@@ -88,11 +88,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {post.category}
             </Badge>
           </div>
-          
+
           <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-tight">
             {post.title}
           </h1>
-          
+
           <p className="text-muted-foreground text-base sm:text-lg mt-4 leading-relaxed font-light">
             {post.description}
           </p>
@@ -108,7 +108,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 ))}
               </div>
             </div>
-            
+
             {/* Share placeholder logic */}
             <Button variant="ghost" size="sm" className="rounded-full text-xs text-muted-foreground hover:text-foreground hover:bg-secondary cursor-pointer">
               <Share2 className="h-3.5 w-3.5 mr-1.5" />

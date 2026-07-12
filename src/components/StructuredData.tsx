@@ -34,7 +34,7 @@ export function StructuredData({ type, data }: StructuredDataProps) {
       ],
       sameAs: [
         'https://github.com/thrilokmanjunath',
-        'https://linkedin.com/in/thrilokmanjunath',
+        'https://www.linkedin.com/in/thrilokmanjunath',
       ],
       ...data,
     };

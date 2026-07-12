@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Github, Linkedin, Mail, FileText, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { QuantumGrid } from "@/components/QuantumGrid";
+import { ThreeDElement } from "@/components/ThreeDElement";
 import { motion } from "framer-motion";
 
 export function Hero() {
@@ -12,6 +13,7 @@ export function Hero() {
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-20 px-4">
       {/* Background visual components */}
       <QuantumGrid />
+      <ThreeDElement />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-purple/10 rounded-full blur-3xl -z-10 animate-pulse duration-10000" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-cyan/10 rounded-full blur-3xl -z-10 animate-pulse duration-8000" />
 
@@ -108,7 +110,7 @@ export function Hero() {
             <Github className="h-6 w-6" />
           </Link>
           <Link
-            href="https://linkedin.com/in/thrilokmanjunath"
+            href="https://www.linkedin.com/in/thrilokmanjunath"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
@@ -117,7 +119,7 @@ export function Hero() {
             <Linkedin className="h-6 w-6" />
           </Link>
           <Link
-            href="mailto:[your.email@example.com]"
+            href="mailto:thrilokmanjunath@gmail.com"
             className="hover:text-foreground transition-colors"
             aria-label="Email Address"
           >

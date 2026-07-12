@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="w-full border-t border-border/40 bg-background/50 py-12">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center pb-8 border-b border-border/20">
-          
+
           {/* Logo & Pitch */}
           <div className="text-center md:text-left">
             <Link href="/" className="font-heading font-bold text-lg text-foreground">
@@ -47,7 +47,7 @@ export function Footer() {
               <Github className="h-4 w-4" />
             </Link>
             <Link
-              href="https://linkedin.com/in/thrilokmanjunath"
+              href="https://www.linkedin.com/in/thrilokmanjunath"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted/80 rounded-full"
@@ -56,7 +56,7 @@ export function Footer() {
               <Linkedin className="h-4 w-4" />
             </Link>
             <Link
-              href="mailto:[thrilokmanjunath@gmail.com]" 
+              href="mailto:thrilokmanjunath@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted/80 rounded-full"
               aria-label="Email Contact"
             >
@@ -68,10 +68,8 @@ export function Footer() {
         {/* Bottom Credits */}
         <div className="flex flex-col sm:flex-row items-center justify-between mt-8 text-[11px] text-muted-foreground">
           <p>© {currentYear} Thrilok M. All rights reserved.</p>
-          <p className="flex items-center mt-2 sm:mt-0">
-            Built with Next.js, Tailwind v4, & Framer Motion. Made with
-            <Heart className="h-3 w-3 text-brand-pink mx-1 fill-current" />
-            in Bangalore.
+          <p className="italic mt-2 sm:mt-0 text-center sm:text-right font-light">
+            &ldquo;Innovation distinguishes between a leader and a follower&rdquo; &mdash; Steve Jobs
           </p>
         </div>
       </div>

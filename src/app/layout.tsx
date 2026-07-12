@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { ChatAssistant } from "@/components/ChatAssistant";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -83,13 +84,14 @@ export default function RootLayout({
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
-          enableSystem
+          enableSystem={false}
           disableTransitionOnChange
         >
           <TooltipProvider>
             <Navbar />
             <main className="flex-grow">{children}</main>
             <Footer />
+            <ChatAssistant />
           </TooltipProvider>
         </ThemeProvider>
       </body>

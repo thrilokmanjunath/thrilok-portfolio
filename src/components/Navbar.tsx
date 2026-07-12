@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, Terminal, ArrowUpRight } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -33,8 +34,8 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2 group">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground group-hover:scale-105 transition-transform">
-            <Terminal className="h-5 w-5 text-brand-purple" />
+          <div className="flex h-11 w-11 relative items-center justify-center rounded-lg overflow-hidden group-hover:scale-105 transition-transform bg-background/50 border border-border/50 glow-purple shadow-sm">
+            <Image src="/mylogo.png" alt="Thrilok Logo" fill priority unoptimized sizes="44px" className="object-cover p-0.5" />
           </div>
           <span className="font-heading font-bold text-lg tracking-tight bg-gradient-to-r from-foreground via-foreground/90 to-muted-foreground bg-clip-text text-transparent">
             thrilok.dev
@@ -73,7 +74,7 @@ export function Navbar() {
         <div className="hidden md:flex items-center space-x-4">
           <ThemeToggle />
           <Link
-            href="https://linkedin.com/in/thrilokmanjunath"
+            href="https://www.linkedin.com/in/thrilokmanjunath"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -130,7 +131,7 @@ export function Navbar() {
                   );
                 })}
                 <Link
-                  href="https://linkedin.com/in/thrilokmanjunath"
+                  href="https://www.linkedin.com/in/thrilokmanjunath"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setIsOpen(false)}
