@@ -1,20 +1,11 @@
 [
   {
-    "id": "pub-1",
-    "title": "Quantum Error Correction in Near-Term Devices",
-    "conference": "IEEE Quantum Week 2023",
-    "date": "2023-09-15",
-    "description": "An analysis of mitigating decoherence in noisy intermediate-scale quantum (NISQ) computers using topological codes.",
-    "link": "https://arxiv.org/abs/2309.XXXXX",
-    "tags": ["Quantum Computing", "QEC", "NISQ"]
-  },
-  {
-    "id": "pub-2",
-    "title": "Federated Learning for Privacy-Preserving Medical Imaging",
-    "conference": "NeurIPS Workshop 2024",
-    "date": "2024-12-10",
-    "description": "A novel architecture combining differential privacy and federated learning to train robust models on distributed MRI datasets.",
-    "link": "https://arxiv.org/abs/2412.XXXXX",
-    "tags": ["Machine Learning", "Federated Learning", "Healthcare"]
+    "id": "res-1",
+    "title": "Synthetic Silence: Mapping Information Voids and Research Gaps in Generative AI Systems",
+    "conference": "Ongoing Research Project",
+    "date": "2026-05-01",
+    "description": "An investigation into detecting semantic/topological information gaps and evaluating LLM hallucinations using TT-WGAN-GP Frameworks, VoidFormer-KV, and knowledge graph mapping.",
+    "link": "https://github.com/thrilokmanjunath/Synthetic_Silence",
+    "tags": ["Generative AI", "Information Voids", "Hallucination Intelligence", "TT-WGAN-GP"]
   }
 ]
