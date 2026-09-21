@@ -13,7 +13,7 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email Address",
-      value: "thrilokmanjunath@gmail.com", 
+      value: "thrilokmanjunath@gmail.com",
       sub: "Best for research & internship queries",
     },
     {
@@ -38,7 +38,7 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-      
+
       {/* Page Header */}
       <div className="mb-16">
         <span className="text-xs font-semibold text-brand-purple uppercase tracking-widest">Get In Touch</span>
@@ -51,7 +51,7 @@ export default function ContactPage() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
-        
+
         {/* Info Sidebar Column */}
         <div className="lg:col-span-1 space-y-6">
           {contactInfo.map((info) => {

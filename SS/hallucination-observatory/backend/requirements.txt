@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+celery
+redis
+sqlalchemy
+psycopg2-binary
+neo4j
+pydantic
+pydantic-settings
+openai
+anthropic
+google-genai
