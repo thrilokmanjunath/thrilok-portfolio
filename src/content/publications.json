@@ -1,11 +1,11 @@
 [
   {
     "id": "res-1",
-    "title": "Synthetic Silence: Mapping Information Voids and Research Gaps in Generative AI Systems",
-    "conference": "Ongoing Research Project",
-    "date": "2026-05-01",
-    "description": "An investigation into detecting semantic/topological information gaps and evaluating LLM hallucinations using TT-WGAN-GP Frameworks, VoidFormer-KV, and knowledge graph mapping.",
-    "link": "https://github.com/thrilokmanjunath/Synthetic_Silence",
-    "tags": ["Generative AI", "Information Voids", "Hallucination Intelligence", "TT-WGAN-GP"]
+    "title": "Synthetic Silence 2.0: Evaluating Claim-Space Density for Evidence Insufficiency Under Construction and Reference-Manifold Shift",
+    "conference": "Empirical Research Preprint & Benchmark Freeze",
+    "date": "2026-10-30",
+    "description": "An empirical machine learning investigation uncovering that representation-space density exhibits severe signal inversion (AUROC 0.2754 on real claims without evidence vs 0.5463 on synthetic claims), with single-command deterministic benchmark reproduction.",
+    "link": "https://github.com/thrilokmanjunath/SyntheticSilence2.0",
+    "tags": ["AI Safety", "Evidence Insufficiency", "Conformal Prediction", "Manifold Shift", "PyTorch"]
   }
 ]
