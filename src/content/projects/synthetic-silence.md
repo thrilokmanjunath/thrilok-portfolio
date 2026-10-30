@@ -1,25 +1,24 @@
 ---
 id: "proj-synthetic-silence"
-title: "Synthetic Silence"
-description: "An Explainable Multi-Agent Hallucination & Knowledge Void Detection Platform for LLMs using Topological Data Analysis and Sparse Autoencoders."
+title: "Synthetic Silence 2.0"
+description: "Empirical evaluation of claim-space density for evidence insufficiency under reference-manifold shift and hallucination detection."
 coverImage: ""
-tags: ["Python", "PyTorch", "LLM", "AI Safety", "Multi-Agent"]
-category: "ai-ml"
-repoUrl: "https://github.com/thrilokmanjunath/Synthetic_Silence"
+tags: ["PyTorch", "Python", "Conformal Prediction", "AI Safety", "Bootstrap CIs", "LLMs"]
+category: "research"
+repoUrl: "https://github.com/thrilokmanjunath/SyntheticSilence2.0"
 liveUrl: ""
 featured: true
-date: "2026-05-10"
-challenge: "Detecting semantic/topological information gaps and evaluating LLM hallucinations reliably."
-solution: "Developed an observatory platform with knowledge graphs, extracting atomic claims from LLM outputs and verifying them against contextual evidence."
+date: "2026-10-30"
+challenge: "Determining whether representation-space density provides a robust, construction-invariant signal for hallucination detection across synthetic versus real-world claim manifolds."
+solution: "Conducted frozen benchmark experiments across FEVER and AVeriTeC datasets, proving a severe signal inversion (AUROC 0.2754 on evidence-insufficient real claims vs 0.5463 on synthetic claims) with deterministic single-command reproduction."
 ---
 
-# Synthetic Silence
+# Synthetic Silence 2.0: Claim-Space Density & Manifold Shift
 
-Synthetic Silence is an advanced research platform for mapping Information Voids and Research Gaps in Generative AI Systems. It functions as a Hallucination Intelligence Platform.
+Synthetic Silence 2.0 is an empirical machine learning research project investigating hallucination detection and evidence insufficiency in Large Language Models.
 
-## Core Capabilities
-
-- **Hallucination Detection**: Extracts atomic claims and verifies them against a contextual knowledge graph to categorize them as Supported, Contradicted, or Unverifiable.
-- **Knowledge Graphs**: Utilizes Neo4j for mapping semantic and topological relationships between claims and source documents.
-- **Multi-Agent Evaluation**: Features a 'Judge LLM' architecture with adapters for Anthropic, Gemini, and OpenAI to automatically orchestrate the evaluation process.
-- **Full-Stack Architecture**: Built with FastAPI, Next.js, PostgreSQL, and Redis for high-performance telemetry and evaluation management.
+## Core Findings & Scientific Validation
+- **Frozen Benchmark Reproduction**: Single-command execution via `python scripts/reproduce_benchmark.py` validating claims against frozen manifests.
+- **Synthetic Benchmark ($E_0$)**: kNN density estimation achieves **AUROC = 0.5463** (95% CI `[0.5366, 0.5564]`, prevalence baseline `0.2403`) on synthetic FEVER claims.
+- **Signal Inversion Finding ($E_1$)**: On real-world AVeriTeC claims without evidence, density drops to **AUROC = 0.2754**, establishing that unverified real-world claims cluster closer to encyclopedic reference embeddings than verified facts.
+- **Interactive Research Demo**: Streamlit interface with conformal prediction indicators (`NOT_CALIBRATED` disclosure) and clear distinction between model heuristics and verified truth.
