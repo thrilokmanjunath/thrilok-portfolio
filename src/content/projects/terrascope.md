@@ -1,23 +1,25 @@
 ---
 id: "proj-terrascope"
 title: "TerraScope"
-description: "A living digital twin of Earth and the cosmos featuring real physics and authentic telemetry data visualization."
+description: "Living digital twin of Earth and the cosmos — real physics, 18,000 SDSS galaxies, Schwarzschild gravitational lensing, and pulsar audio synthesis."
 coverImage: ""
-tags: ["TypeScript", "Next.js", "Three.js", "Digital Twin"]
+tags: ["TypeScript", "Next.js", "Three.js", "WebGL Shaders", "Orbital Mechanics", "Astrophysics"]
 category: "fullstack"
 repoUrl: "https://github.com/thrilokmanjunath/TerraScope"
-liveUrl: ""
-featured: false
-date: "2026-01-20"
-challenge: "Rendering large-scale real-world geospatial and astronomical datasets interactively in the browser."
-solution: "Developed a 3D scientific visualization platform using Three.js and Next.js to render Earth's digital twin utilizing NASA data sources."
+liveUrl: "https://terrascope-three.vercel.app"
+featured: true
+date: "2026-10-30"
+challenge: "Simulating authentic astrophysical phenomena and planetary telemetry in real time without resorting to pre-rendered animations or fabricated numbers."
+solution: "Built a living 3D digital twin rendering 18,000 real SDSS DR17 galaxies at 60 FPS, general-relativity Schwarzschild black hole gravitational lensing matching Event Horizon Telescope shadows, real pulsar audio synthesis, and orbital ephemeris mechanics."
 ---
 
-# TerraScope
+# TerraScope: Living Planetary & Astrophysical Digital Twin
 
-TerraScope is an interactive scientific visualization engine and digital twin representing Earth and the cosmos.
+TerraScope is an interactive scientific visualization engine and digital twin representing Earth, planetary systems, and the observable cosmos using empirical physics and real astronomical datasets.
 
 ## Core Capabilities
 
-- **Scientific Visualization**: Renders complex 3D scenes and telemetry data directly in the browser using Three.js and WebGL.
-- **Authentic Telemetry**: Integrates real physics and NASA data sources to construct a highly accurate geospatial digital twin.
+- **18,000 SDSS DR17 Galaxies in 3D**: Direct WebGL point-cloud rendering of genuine astronomical coordinates from the Sloan Digital Sky Survey at a steady 60 FPS.
+- **Relativistic Gravitational Lensing**: Custom GPU fragment shaders computing exact Schwarzschild geodesic light deflection matching Event Horizon Telescope shadow observations.
+- **Pulsar Audio Synthesis**: Generates real acoustic signatures from genuine pulsar observation frequencies and spin periods.
+- **Orbital Mechanics & Satellite Telemetry**: Real-time Keplerian orbital trajectory solvers rendering satellite constellations and planetary orbits.
